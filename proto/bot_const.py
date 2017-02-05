@@ -19,6 +19,23 @@ def getToken():
     return TOKEN
 
 
+def get_train_list(MODE):
+    if MODE == 1:
+        f = open('data/legs.txt')
+
+    elif MODE == 2:
+        f = open('data/back.txt')
+
+    elif MODE == 3:
+        f = open('data/chest.txt')
+    else:
+        return 0
+    train_list = []
+    for line in f:
+        train_list.append(line)
+    f.close()
+    return list(reversed(train_list))
+
 def getInterval():
     tree = ET.parse('config.xml')
     root = tree.getroot()

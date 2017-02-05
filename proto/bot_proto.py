@@ -17,6 +17,8 @@ class Telegram:
             self.proxies = getProxies()
         self.chat_id = 74102915
         self.offset = 0
+        self.TRAIN_MODE = 0
+        self.train_list = []
         self.host = socket.getfqdn()
         self.Interval = getInterval()
         if not self.proxy:
