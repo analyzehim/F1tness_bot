@@ -1,0 +1,8 @@
+Sun Feb 05 17:06:39 2017 >> Init completed with proxy, host: RAEV-NB.avp.ru
+Sun Feb 05 17:06:39 2017 >> Sending to 74102915: Run on RAEV-NB.avp.ru
+Sun Feb 05 17:08:13 2017 >> from Eugene (id74102915): "/start" with author: 74102915; time:1486303693
+Sun Feb 05 17:08:13 2017 >> No action
+Sun Feb 05 17:08:25 2017 >> from Eugene (id74102915): "/help" with author: 74102915; time:1486303704
+Sun Feb 05 17:08:25 2017 >> Sending to 74102915: Options:; keyboard: [['legs', 'back', 'hands']]
+Sun Feb 05 17:08:29 2017 >> from Eugene (id74102915): "back" with author: 74102915; time:1486303708
+Sun Feb 05 17:08:29 2017 >> No action
