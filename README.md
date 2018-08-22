@@ -1,1 +1,1 @@
-# F1tness_bot
+Telegram bot for one fitness club
